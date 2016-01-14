@@ -17,7 +17,7 @@ public:
 int main ()
 {
   A foo;
-  B bar = foo;    // calls constructor
+  B bar = foo;    // calls constructor //MODIFICARE
   bar = foo;      // calls assignment
   foo = bar;      // calls type-cast operator
   return 0;
